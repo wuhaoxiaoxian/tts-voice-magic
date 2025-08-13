@@ -16,7 +16,7 @@
 
 ### 点击按钮，一键部署到 CloudFlare Workers,
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/wangwangit/tts)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/wuhaoxiaoxian/tts-voice-magic)
 
 
 
@@ -176,15 +176,6 @@ MIT License
 - Microsoft Edge TTS 提供语音合成服务
 - Cloudflare Workers 提供无服务器计算平台
 - 参考项目: https://github.com/pyvideotrans/tts-pyvideotrans2
-
-## 📞 联系我们
-
-关注公众号「一只会飞的旺旺」获取更多 AI 工具和技术分享：
-
-- 最新 AI 工具推荐和使用教程
-- 前沿技术解析和实战案例  
-- 独家资源和工具源码分享
-- 技术问题答疑和交流社群
 
 ---
 

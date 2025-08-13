@@ -12,7 +12,7 @@ const HTML_PAGE = `
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>一只会飞的旺旺 - 让文字开口说话的神器</title>
+    <title>让文字开口说话的神器</title>
     <meta name="description" content="声音魔法师，一键将文字转换为自然流畅的语音，支持20+种中文声音，免费在线使用，让你的内容更生动有趣！">
     <meta name="keywords" content="文字转语音,AI语音合成,在线TTS,语音生成器,免费语音工具">
     <style>
@@ -515,29 +515,6 @@ const HTML_PAGE = `
                 </div>
             </div>
         </div>
-        
-        <!-- 公众号推广组件 -->
-        <div class="wechat-promotion" id="wechatPromotion" style="display: none;">
-            <div class="promotion-header">
-                <h2 class="promotion-title">🎉 生成成功！喜欢这个工具吗？</h2>
-                <p class="promotion-subtitle">关注我们获取更多AI工具和技术分享</p>
-            </div>
-            <div class="promotion-content">
-                <div class="qr-code">
-                    <img src="https://img.996007.icu/file/img1/a48c4eac2f2a99909da5611c3885726.jpg" alt="微信公众号二维码" />
-                </div>
-                <div class="promotion-info">
-                    <h3>关注「一只会飞的旺旺」公众号</h3>
-                    <p>获取更多实用的AI工具、技术教程和独家资源分享</p>
-                    <ul class="benefits-list">
-                        <li>最新AI工具推荐和使用教程</li>
-                        <li>前沿技术解析和实战案例</li>
-                        <li>独家资源和工具源码分享</li>
-                        <li>技术问题答疑和交流社群</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
     </div>
 
     <script>
@@ -596,13 +573,7 @@ const HTML_PAGE = `
                 
                 loading.style.display = 'none';
                 success.style.display = 'block';
-                
-                // 显示公众号推广组件
-                setTimeout(() => {
-                    const wechatPromotion = document.getElementById('wechatPromotion');
-                    wechatPromotion.style.display = 'block';
-                    wechatPromotion.classList.add('fade-in');
-                }, 1000);
+
                 
             } catch (err) {
                 loading.style.display = 'none';
