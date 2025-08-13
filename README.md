@@ -175,6 +175,7 @@ MIT License
 
 - Microsoft Edge TTS 提供语音合成服务
 - Cloudflare Workers 提供无服务器计算平台
+- LINUX DO 佬友wangwanggit提供的帮助
 - 参考项目: https://github.com/pyvideotrans/tts-pyvideotrans2
 
 ---
